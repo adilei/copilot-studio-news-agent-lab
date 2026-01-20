@@ -1,0 +1,27 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: Copilot Studio News Agent Lab
+description: Build an autonomous news agent in Microsoft Copilot Studio
+
+# Footer
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/adilei/copilot-studio-news-agent-lab"
+gh_edit_branch: "main"
+
+# Aux links (top right)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/adilei/copilot-studio-news-agent-lab"
+
+# Enable callouts
+callouts:
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: yellow
