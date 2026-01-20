@@ -28,7 +28,7 @@ Staying informed about industry trends, competitors, and market developments is 
 
 A Copilot Studio agent that runs on a recurring schedule, searches the web for news on topics you define, and emails you a formatted digest.
 
-![Agent Overview](images/agent-overview.png)
+![Agent Overview](./images/agent-overview.png)
 
 **Key components:**
 - **Recurring Copilot Trigger** - Runs the agent on a schedule
@@ -53,13 +53,13 @@ The Recurring Copilot Trigger runs your agent automatically on a schedule, witho
 
 2. In the Add trigger dialog, select **Recurrence**
 
-   ![Add Trigger](images/add-trigger-recurrence.png)
+   ![Add Trigger](./images/add-trigger-recurrence.png)
 
 ### Sign in to the connection
 
 3. You'll be prompted to sign in. Click **Sign in** next to Microsoft Copilot Studio
 
-   ![Sign In](images/sign-in-trigger-recurrence.png)
+   ![Sign In](./images/sign-in-trigger-recurrence.png)
 
 4. Complete the authentication flow in the popup window
 
@@ -72,7 +72,7 @@ The Recurring Copilot Trigger runs your agent automatically on a schedule, witho
    | **Trigger name** | `News Digest Trigger` (or your preference) |
    | **Trigger frequency** | Choose your schedule (e.g., Daily, Weekly) |
 
-   ![Create Trigger](images/create-trigger-recurrence.png)
+   ![Create Trigger](./images/create-trigger-recurrence.png)
 
 6. Click **Create trigger**
 
@@ -90,7 +90,7 @@ The Send an email (V2) connector allows your agent to send the news digest to yo
 
 3. Search for and select **Send an email (V2)** (Office 365 Outlook connector)
 
-   ![Add Tool](images/add-tool.png)
+   ![Add Tool](./images/add-tool.png)
 
 4. Sign in to the Office 365 Outlook connection if prompted
 
@@ -107,14 +107,14 @@ The key to making this work autonomously is using **Dynamically fill with AI** f
    - Click **Customize** to open the input settings
    - Set **Description** to: `send to myself`
 
-   ![Configure To](images/tool-definition-email-to.png)
+   ![Configure To](./images/tool-definition-email-to.png)
 
 8. Configure the **Body** input:
    - Set **Fill using** to `Dynamically fill with AI`
    - Click **Customize** to open the input settings
    - Set **Description** to: `An HTML formatted report of relevant news, including links. Design the report like a visually appealing newsletter`
 
-   ![Configure Body](images/tool-definition-email-body.png)
+   ![Configure Body](./images/tool-definition-email-body.png)
 
 9. Click **Save**
 
@@ -148,11 +148,11 @@ The instructions tell your agent what to do when triggered. This is where you de
 
 5. To reference the email tool, type `/` to open the tool picker
 
-   ![Tool Picker](images/add-tools-to-instructions.png)
+   ![Tool Picker](./images/add-tools-to-instructions.png)
 
 6. Select **Send an email (V2)** from the dropdown
 
-   ![Select Email Tool](images/select-email-tool.png)
+   ![Select Email Tool](./images/select-email-tool.png)
 
    This inserts a reference to the tool directly in your instructions.
 
@@ -171,13 +171,13 @@ Before relying on the scheduled trigger, test your agent manually to ensure ever
 
 1. Click on the **Recurring Copilot Trigger** in the Triggers section
 
-   ![Click Test Trigger](images/click-test-trigger.png)
+   ![Click Test Trigger](./images/click-test-trigger.png)
 
 2. Click **Test your trigger** (or the test icon) to open the test dialog
 
 3. In the **Test your trigger** dialog, you'll see the trigger schedule. Click **Start testing** to simulate a scheduled run
 
-   ![Start Testing](images/start-testing.png)
+   ![Start Testing](./images/start-testing.png)
 
 4. Wait for the agent to complete its work
 
@@ -189,7 +189,7 @@ Before relying on the scheduled trigger, test your agent manually to ensure ever
    - Multiple **Search sources** steps (the agent searching for news)
    - **Send an email (V2)** step at the end
 
-   ![Activity Map](images/activity-map.png)
+   ![Activity Map](./images/activity-map.png)
 
 7. Click on the email step to see the output:
    - Check the **To** field has your email
@@ -197,7 +197,7 @@ Before relying on the scheduled trigger, test your agent manually to ensure ever
 
 8. Check your inbox for the actual email
 
-   ![Email Report](images/email-report.png)
+   ![Email Report](./images/email-report.png)
 
 {: .tip }
 > If the agent isn't searching the web, verify that:

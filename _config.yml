@@ -2,6 +2,12 @@ remote_theme: just-the-docs/just-the-docs
 
 title: Copilot Studio News Agent Lab
 description: Build an autonomous news agent in Microsoft Copilot Studio
+baseurl: /copilot-studio-news-agent-lab
+
+# Exclude internal docs
+exclude:
+  - CLAUDE.md
+  - README.md
 
 # Footer
 gh_edit_link: true
