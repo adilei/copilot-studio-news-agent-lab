@@ -1,7 +1,8 @@
 ---
 title: Home
-layout: home
-nav_order: 1
+layout: default
+nav_exclude: true
+search_exclude: true
 ---
 
 # Build an Autonomous News Agent in Copilot Studio
