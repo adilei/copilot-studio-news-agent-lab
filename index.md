@@ -94,9 +94,7 @@ If you don't have a developer environment:
 
    ![Create Agent](./images/create-agent.png)
 
-5. Give your agent a name (e.g., `News Digest Agent`) and click **Create**—you can change the name later from the Overview page
-
-You'll land on the agent's **Overview** page. This is your central hub for configuring the agent—you can see its name, model, instructions, knowledge sources, and tools all in one place. We'll configure each of these as we go.
+You'll land on the agent's **Overview** page. This is your central hub for configuring the agent—you can see its name, model, instructions, knowledge sources, and tools all in one place. Click the agent name at the top to rename it (e.g., `News Digest Agent`).
 
 ---
 
