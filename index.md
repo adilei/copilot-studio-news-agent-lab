@@ -80,15 +80,31 @@ If you don't have a developer environment:
 {: .note }
 > Developer environments are free and designed for building and testing solutions. They include Dataverse and are ideal for labs like this one.
 
+### Sign in to Copilot Studio
+
+1. Go to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com)
+
+2. Sign in with your Microsoft account
+
+3. In the environment picker (top-right corner), select your **Developer** environment
+
+### Create your agent
+
+4. Click **+ Create** to start a new agent
+
+5. Give your agent a name (e.g., `News Digest Agent`) and click **Create**
+
+You'll land on the agent's **Overview** page. This is your central hub for configuring the agent—you can see its name, model, instructions, knowledge sources, and tools all in one place. We'll configure each of these as we go.
+
 ---
 
 ## Step 1: Configure the Recurring Copilot Trigger
 
-The Recurring Copilot Trigger runs your agent automatically on a schedule, without requiring user interaction.
+Most agents respond to user messages in a chat. But for this lab, we want the agent to act **autonomously**—running on its own schedule without any user interaction. That's what the Recurring Copilot Trigger enables.
 
 ### Add the trigger
 
-1. In your agent, click **+ Add trigger** in the Triggers section
+1. In the **Triggers** section, click **+ Add trigger**
 
 2. In the Add trigger dialog, select **Recurrence**
 

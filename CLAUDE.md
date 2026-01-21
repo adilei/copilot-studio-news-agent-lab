@@ -34,6 +34,8 @@ Single flow, no separate use cases. Steps:
 0. **Set Up a Developer Environment**
    - Check Power Platform admin center for existing developer environment
    - Create new developer environment if needed (Type = Developer)
+   - Sign in to Copilot Studio and select the developer environment
+   - Create a new agent
 
 1. **Configure the Recurring Copilot Trigger**
    - Add trigger → select Recurrence
