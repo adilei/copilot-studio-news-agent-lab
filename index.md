@@ -44,7 +44,7 @@ A Copilot Studio agent that runs on a recurring schedule, searches the web for n
 
 ---
 
-## Step 0: Set Up a Developer Environment
+## Step 0: Set Up a Developer Environment and Create Your Agent
 
 Before building your agent, you need a Power Platform developer environment. This step checks if you have one and shows you how to create it if not.
 
