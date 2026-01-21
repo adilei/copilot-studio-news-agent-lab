@@ -100,7 +100,7 @@ You'll land on the agent's **Overview** page. This is your central hub for confi
 
 ## Step 1: Configure the Recurring Copilot Trigger
 
-Most agents respond to user messages in a chat. But for this lab, we want the agent to act **autonomously**—running on its own schedule without any user interaction. That's what the Recurring Copilot Trigger enables.
+Some agents respond to user messages in a chat. But for this lab, we want the agent to act **autonomously**—running on its own schedule without any user interaction. That's what the Recurring Copilot Trigger enables.
 
 ### Add the trigger
 
