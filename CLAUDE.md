@@ -12,6 +12,7 @@ A self-service lab teaching how to build an autonomous agent in Microsoft Copilo
 
 | Image | Description | Used In |
 |-------|-------------|---------|
+| `dev-env.png` | Power Platform admin center Environments page with "New environment" panel; shows Type dropdown set to Developer | Step 0 |
 | `agent-overview.png` | Completed agent showing all components: name (HR News Agent), model (GPT-5 Chat), trigger, instructions, web search enabled, email tool | Introduction/final state |
 | `add-trigger-recurrence.png` | "Add trigger" dialog with trigger type options; Recurrence highlighted among options like "When an item is created", "When a file is created", etc. | Step 1 |
 | `sign-in-trigger-recurrence.png` | Sign-in step for Recurring Copilot Trigger; shows Microsoft Copilot Studio connection with sign-in button | Step 1 |
@@ -29,6 +30,10 @@ A self-service lab teaching how to build an autonomous agent in Microsoft Copilo
 ## Lab Structure (Simplified)
 
 Single flow, no separate use cases. Steps:
+
+0. **Set Up a Developer Environment**
+   - Check Power Platform admin center for existing developer environment
+   - Create new developer environment if needed (Type = Developer)
 
 1. **Configure the Recurring Copilot Trigger**
    - Add trigger → select Recurrence

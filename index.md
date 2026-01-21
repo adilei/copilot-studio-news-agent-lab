@@ -39,8 +39,46 @@ A Copilot Studio agent that runs on a recurring schedule, searches the web for n
 ## ✅ Prerequisites
 
 - [ ] Access to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com)
-- [ ] A Power Platform environment with Copilot Studio enabled
+- [ ] A Power Platform developer environment (see below)
 - [ ] Maker or higher permissions in the environment
+
+---
+
+## Step 0: Set Up a Developer Environment
+
+Before building your agent, you need a Power Platform developer environment. This step checks if you have one and shows you how to create it if not.
+
+### Check for an existing developer environment
+
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments)
+
+2. Look at the **Type** column in your environments list
+
+3. If you see an environment with type **Developer**, you're ready—skip to Step 1
+
+### Create a developer environment
+
+If you don't have a developer environment:
+
+1. Click **+ New** in the toolbar
+
+2. In the **New environment** panel, configure:
+
+   | Field | Value |
+   |-------|-------|
+   | **Name** | Choose a name (e.g., `Dev Environment`) |
+   | **Region** | Select your region |
+   | **Type** | `Developer` |
+   | **Purpose** | Optional description |
+
+   ![New Environment](./images/dev-env.png)
+
+3. Click **Create**
+
+4. Wait for the environment to be provisioned (this may take a few minutes)
+
+{: .note }
+> Developer environments are free and designed for building and testing solutions. They include Dataverse and are ideal for labs like this one.
 
 ---
 
